@@ -1,6 +1,23 @@
 {
   "visione": [
     {
+      "id": "mqqcxawmyn987z2ci5f",
+      "type": "tv",
+      "title": "Narcos",
+      "year": "2015",
+      "seasons": "3",
+      "platform": "",
+      "cadenza": "",
+      "overview": "La storia vera dei potenti e violentissimi cartelli della droga colombiani ha ispirato questa serie drammatica e cruda.",
+      "poster": "https://image.tmdb.org/t/p/w342/8esiSJxwNY6Q5gNSMWPfMSqarGv.jpg",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": 63351,
+      "backdropPath": "/y9ekzkPFmWSqUU3Kj0wHmYUM8qu.jpg",
+      "addedAt": "2026-06-23T08:03:00.598Z"
+    },
+    {
       "id": "mqqcukdgaiaxqgt4okd",
       "type": "tv",
       "title": "Poker Face",
