@@ -1,6 +1,23 @@
 {
   "visione": [
     {
+      "id": "mqqdjbv72xvm4v8l8ws",
+      "type": "tv",
+      "title": "The Agency",
+      "year": "2024",
+      "seasons": "2",
+      "platform": "",
+      "cadenza": "",
+      "overview": "A Martian, agente segreto della CIA, viene ordinato di rientrare alla Stazione di Londra. Quando la donna che ha lasciato riappare inaspettatamente, il loro amore si riaccende, gettandoli in un gioco mortale di intrighi internazionali e spionaggio.",
+      "poster": "https://image.tmdb.org/t/p/w342/fDZgOeTiplrl0skvK6IIyejHLQF.jpg",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": 219971,
+      "backdropPath": "/o9gr7EoGPDU1IIv8Buzm2neklUM.jpg",
+      "addedAt": "2026-06-23T08:20:08.276Z"
+    },
+    {
       "id": "mqqdgkvjvxem2zpfc9o",
       "type": "tv",
       "title": "Il colore delle magnolie",
