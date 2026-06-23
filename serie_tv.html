@@ -465,7 +465,10 @@ function updStats(){
   document.getElementById('st-film').textContent=film.length;
   document.getElementById('st-arch').textContent=db.archivio.length+db['film-archivio'].length;
   ['visione','iniziare','unatantum','archivio','film-visione','film-iniziare','film-archivio'].forEach(t=>{
-    const el=document.getElementById('c-'+t); if(el) el.textContent=db[t].length;
+    const el=document.getElementById('c-'+t.replace('-','_')); 
+    const el2=document.getElementById('c-'+t);
+    if(el) el.textContent=db[t]?db[t].length:0;
+    if(el2) el2.textContent=db[t]?db[t].length:0;
   });
 }
 
@@ -473,6 +476,8 @@ function renderTab(tab){
   const grid=document.getElementById('g-'+tab);
   const empty=document.getElementById('e-'+tab);
   const fEl=document.getElementById('f-'+tab);
+  if(!grid||!empty||!fEl) return;
+  if(!db[tab]) db[tab]=[];
   const items=db[tab];
   const platforms=[...new Set(items.map(i=>i.platform).filter(Boolean))];
   fEl.innerHTML=platforms.length>1
