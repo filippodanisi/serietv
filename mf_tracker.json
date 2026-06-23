@@ -1,6 +1,40 @@
 {
   "visione": [
     {
+      "id": "mqqdfzvchduw3gi19eo",
+      "type": "tv",
+      "title": "Poker Face",
+      "year": "2023",
+      "seasons": "2",
+      "platform": "",
+      "cadenza": "",
+      "overview": "Charlie è una donna con un dono straordinario: riconoscere quando qualcuno mente. A bordo della sua Plymouth Barracuda, attraversa il paese e, a ogni tappa, si trova coinvolta in strani crimini che non può fare a meno di risolvere.",
+      "poster": "https://image.tmdb.org/t/p/w342/nZnHwYpK27fC9AIK6DKVomrUAbk.jpg",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": 120998,
+      "backdropPath": "/ccOzCmrglAjRGtqv5ClTaBEsWt8.jpg",
+      "addedAt": "2026-06-23T08:17:32.760Z"
+    },
+    {
+      "id": "mqqdfqu2rd9cjvj7hdj",
+      "type": "tv",
+      "title": "Narcos",
+      "year": "2015",
+      "seasons": "3",
+      "platform": "",
+      "cadenza": "",
+      "overview": "La storia vera dei potenti e violentissimi cartelli della droga colombiani ha ispirato questa serie drammatica e cruda.",
+      "poster": "https://image.tmdb.org/t/p/w342/8esiSJxwNY6Q5gNSMWPfMSqarGv.jpg",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": 63351,
+      "backdropPath": "/y9ekzkPFmWSqUU3Kj0wHmYUM8qu.jpg",
+      "addedAt": "2026-06-23T08:17:21.050Z"
+    },
+    {
       "id": "mqqc6w0ld0st0fjhyxq",
       "type": "tv",
       "title": "Dutton Ranch",
