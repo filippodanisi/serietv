@@ -377,6 +377,25 @@ main{padding:28px 32px;max-width:1500px;margin:0 auto}
   </div>
 </div>
 
+<!-- TOKEN MODAL -->
+<div class="overlay" id="tokenModal" onclick="closeTokenModal(event)">
+  <div class="modal" onclick="event.stopPropagation()" style="max-width:420px">
+    <div class="modal-hdr">
+      <h2>🔑 Configura GitHub</h2>
+      <button class="mclose" onclick="closeTokenModal()">✕</button>
+    </div>
+    <p style="font-size:13px;color:var(--text2);margin-bottom:16px;line-height:1.6">Incolla il tuo GitHub Token per sincronizzare i dati. Viene salvato solo nel tuo browser, mai online.</p>
+    <div class="fg">
+      <label>GitHub Token</label>
+      <input type="password" id="tokenInput" placeholder="ghp_..." style="font-family:monospace">
+    </div>
+    <div class="factions">
+      <button class="btn-g" onclick="closeTokenModal()">Annulla</button>
+      <button class="btn-p" onclick="salvaToken()">Salva e continua</button>
+    </div>
+  </div>
+</div>
+
 <script>
 const KEY='5ee35223d7541b149eec20e24c250759';
 let db={visione:[],iniziare:[],unatantum:[],archivio:[]};
@@ -688,10 +707,9 @@ async function pubblicaSuGitHub(){
   const FILE='mf_tracker.json';
   let TOKEN=localStorage.getItem('gh_token')||'';
   if(!TOKEN){
-    TOKEN=prompt('Prima configurazione: incolla il tuo GitHub Token (ghp_...)\nSarà salvato solo nel tuo browser, mai su GitHub.');
-    if(!TOKEN)return;
-    localStorage.setItem('gh_token',TOKEN.trim());
-    TOKEN=TOKEN.trim();
+    pendingAction='pubblica';
+    document.getElementById('tokenModal').classList.add('open');
+    return;
   }
 
   setSyncState('warn','Pubblicazione in corso...');
@@ -734,10 +752,9 @@ async function caricaDaGitHub(){
   const FILE='mf_tracker.json';
   let TOKEN=localStorage.getItem('gh_token')||'';
   if(!TOKEN){
-    TOKEN=prompt('Incolla il GitHub Token (ghp_...)\nViene salvato solo nel tuo browser:');
-    if(!TOKEN)return;
-    localStorage.setItem('gh_token',TOKEN.trim());
-    TOKEN=TOKEN.trim();
+    pendingAction='carica';
+    document.getElementById('tokenModal').classList.add('open');
+    return;
   }
   setSyncState('warn','Caricamento da GitHub...');
   try{
@@ -780,6 +797,24 @@ function importData(e){
 function openGuida(){document.getElementById('guidaOv').classList.add('open');}
 function closeGuida(e){if(e.target===document.getElementById('guidaOv'))document.getElementById('guidaOv').classList.remove('open');}
 function closeGuidaBtn(){document.getElementById('guidaOv').classList.remove('open');}
+
+let pendingAction=null;
+
+function closeTokenModal(e){
+  if(!e||e.target===document.getElementById('tokenModal'))
+    document.getElementById('tokenModal').classList.remove('open');
+}
+
+function salvaToken(){
+  const t=document.getElementById('tokenInput').value.trim();
+  if(!t){alert('Incolla il token!');return;}
+  localStorage.setItem('gh_token',t);
+  document.getElementById('tokenModal').classList.remove('open');
+  document.getElementById('tokenInput').value='';
+  if(pendingAction==='carica') caricaDaGitHub();
+  else if(pendingAction==='pubblica') pubblicaSuGitHub();
+  pendingAction=null;
+}
 
 load();renderAll();
 // Auto-carica da GitHub all'avvio se non ci sono dati locali
