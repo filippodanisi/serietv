@@ -71,6 +71,23 @@
   ],
   "iniziare": [
     {
+      "id": "mqqhdeydj7siz8y0lki",
+      "type": "film",
+      "title": "Jay Kelly",
+      "year": "2025",
+      "seasons": "",
+      "platform": "Netflix",
+      "cadenza": "",
+      "overview": "Durante un viaggio in Europa assieme al fedele manager, la star del cinema Jay Kelly affronta il proprio passato e presente in questo film dal candidato agli Oscar® Noah Baumbach.",
+      "poster": "https://image.tmdb.org/t/p/w342/lEXYpY9X17pGC7xYYy17Guv0L3J.jpg",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": 1069905,
+      "backdropPath": "/wR9D9hQvCVBux16NauY4b7letdU.jpg",
+      "addedAt": "2026-06-23T10:07:30.806Z"
+    },
+    {
       "id": "mqqh94up92i558dkjg4",
       "type": "tv",
       "title": "Due tombe",
