@@ -732,8 +732,13 @@ async function caricaDaGitHub(){
   const OWNER='filippodanisi';
   const REPO='serietv';
   const FILE='mf_tracker.json';
-  const TOKEN=localStorage.getItem('gh_token')||'';
-
+  let TOKEN=localStorage.getItem('gh_token')||'';
+  if(!TOKEN){
+    TOKEN=prompt('Incolla il GitHub Token (ghp_...)\nViene salvato solo nel tuo browser:');
+    if(!TOKEN)return;
+    localStorage.setItem('gh_token',TOKEN.trim());
+    TOKEN=TOKEN.trim();
+  }
   setSyncState('warn','Caricamento da GitHub...');
   try{
     const r=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`,{
