@@ -630,12 +630,12 @@ async function srch(){
     const data=await r.json();
     const results=(data.results||[]).slice(0,5);
     if(!results.length){wrap.innerHTML='<div class="tmdb-hint">Nessun risultato. Prova in inglese o compila manualmente.</div>';return;}
-    wrap.innerHTML=results.map(x=>{
+    window._tmdbResults=results;
+    wrap.innerHTML=results.map((x,i)=>{
       const name=x.name||x.title||'';
       const year=(x.first_air_date||x.release_date||'').slice(0,4);
       const poster=x.poster_path?`https://image.tmdb.org/t/p/w92${x.poster_path}`:'';
-      const safe=encodeURIComponent(JSON.stringify(x));
-      return `<div class="tmdb-item" onclick="selTmdbItem(decodeURIComponent('${safe}'))">
+      return `<div class="tmdb-item" onclick="selTmdbItem(${i})">
         ${poster?`<img src="${poster}" alt="">`:'<div style="width:40px;height:60px;background:var(--bg);border-radius:5px;flex-shrink:0"></div>'}
         <div class="tmdb-info"><div class="tmdb-name">${esc(name)}</div><div>${year}${x.origin_country?` · ${x.origin_country[0]}`:''}</div><div style="margin-top:3px;font-size:10px">${esc((x.overview||'').slice(0,90))}${(x.overview||'').length>90?'…':''}</div></div>
       </div>`;
@@ -643,8 +643,9 @@ async function srch(){
   }catch(e){wrap.innerHTML='<div class="tmdb-hint">Errore di connessione a TMDB.</div>';}
 }
 
-async function selTmdbItem(jsonStr){
-  const x=JSON.parse(jsonStr);
+async function selTmdbItem(idx){
+  const x=window._tmdbResults[idx];
+  if(!x)return;
   const name=x.name||x.title||'';
   document.getElementById('fTitle').value=name;
   document.getElementById('fYear').value=(x.first_air_date||x.release_date||'').slice(0,4);
