@@ -1,6 +1,23 @@
 {
   "visione": [
     {
+      "id": "mqqdgkvjvxem2zpfc9o",
+      "type": "tv",
+      "title": "Il colore delle magnolie",
+      "year": "2020",
+      "seasons": "5",
+      "platform": "",
+      "cadenza": "",
+      "overview": "Nella piccola città di Serenity, le grandi amiche Maddie, Helen e Dana Sue si sostengono a vicenda destreggiandosi tra relazioni sentimentali, famiglia e carriera.",
+      "poster": "https://image.tmdb.org/t/p/w342/q2GSoUVCuyRXLpWNJMfmxY1Sw3v.jpg",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": 102904,
+      "backdropPath": "/wt60Q4doM2vrubiCsutwaeWncLL.jpg",
+      "addedAt": "2026-06-23T08:17:59.983Z"
+    },
+    {
       "id": "mqqdfzvchduw3gi19eo",
       "type": "tv",
       "title": "Poker Face",
