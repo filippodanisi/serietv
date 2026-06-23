@@ -1,13 +1,47 @@
 {
   "visione": [
     {
+      "id": "mqqgrg0v2uoqcdfk1fl",
+      "type": "tv",
+      "title": "Ovunque tu sia",
+      "year": "",
+      "seasons": "",
+      "platform": "Netflix",
+      "cadenza": "Tutti gli episodi disponibili",
+      "overview": "",
+      "poster": "",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": null,
+      "backdropPath": null,
+      "addedAt": "2026-06-23T09:50:25.759Z"
+    },
+    {
+      "id": "mqqgoo7tzvqr2i1qsph",
+      "type": "tv",
+      "title": "Chicago Med",
+      "year": "2015",
+      "seasons": "11",
+      "platform": "NOW TV",
+      "cadenza": "Ogni mercoledì fino a?",
+      "overview": "Cavalcare il brivido emozionale attraverso il caos raccontanto giorno dopo giorno nell’ospedale più esplosivo della città, con la squadra coraggiosa dei medici che lo tengono insieme. Essi affronteranno nuovi casi unici ispirati dagli eventi di attualità, creeranno relazioni di fuoco nel pandemonio cardiopalmo del pronto soccorso. La serie è di genere medical drama è uno spinoff di Chicago Fire, creata da by Dick Wolf e Matt Olmstead.",
+      "poster": "https://image.tmdb.org/t/p/w342/9eym662FRJJb9wdgCiDKPDciZzf.jpg",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": 62650,
+      "backdropPath": "/x2jNLrYw1s9i6kihEJqsBQgs9nR.jpg",
+      "addedAt": "2026-06-23T09:48:16.409Z"
+    },
+    {
       "id": "mqqdjbv72xvm4v8l8ws",
       "type": "tv",
       "title": "The Agency",
       "year": "2024",
       "seasons": "2",
-      "platform": "",
-      "cadenza": "",
+      "platform": "Paramount+",
+      "cadenza": "Tutti gli episodi disponibili",
       "overview": "A Martian, agente segreto della CIA, viene ordinato di rientrare alla Stazione di Londra. Quando la donna che ha lasciato riappare inaspettatamente, il loro amore si riaccende, gettandoli in un gioco mortale di intrighi internazionali e spionaggio.",
       "poster": "https://image.tmdb.org/t/p/w342/fDZgOeTiplrl0skvK6IIyejHLQF.jpg",
       "notes": "",
@@ -17,6 +51,45 @@
       "backdropPath": "/o9gr7EoGPDU1IIv8Buzm2neklUM.jpg",
       "addedAt": "2026-06-23T08:20:08.276Z"
     },
+    {
+      "id": "mqqdfzvchduw3gi19eo",
+      "type": "tv",
+      "title": "Poker Face",
+      "year": "2023",
+      "seasons": "2",
+      "platform": "NOW TV",
+      "cadenza": "Ogni venerdì fino al 26 Giugno 10 episodi",
+      "overview": "Charlie è una donna con un dono straordinario: riconoscere quando qualcuno mente. A bordo della sua Plymouth Barracuda, attraversa il paese e, a ogni tappa, si trova coinvolta in strani crimini che non può fare a meno di risolvere.",
+      "poster": "https://image.tmdb.org/t/p/w342/nZnHwYpK27fC9AIK6DKVomrUAbk.jpg",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": 120998,
+      "backdropPath": "/ccOzCmrglAjRGtqv5ClTaBEsWt8.jpg",
+      "addedAt": "2026-06-23T08:17:32.760Z"
+    }
+  ],
+  "iniziare": [
+    {
+      "id": "mqqc6w0ld0st0fjhyxq",
+      "type": "tv",
+      "title": "Dutton Ranch",
+      "year": "2026",
+      "seasons": "1",
+      "platform": "Paramount+",
+      "cadenza": "Ogni venerdì fino al 3 luglio, 9 episodi totali",
+      "overview": "Rip e Beth Dutton scommettono tutto su una nuova vita nel Texas meridionale, ma la promessa di costruire un futuro insieme lontano dai fantasmi di Yellowstone si scontra con una nuova brutale realtà e un ranch rivale privo di scrupoli.",
+      "poster": "https://image.tmdb.org/t/p/w342/oYaRozHp2xRYzXUA7Eltvuw5um4.jpg",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": 299167,
+      "backdropPath": "/wh5agdl3b7fqC7mSjsCkHx4fMAs.jpg",
+      "addedAt": "2026-06-23T07:42:28.246Z"
+    }
+  ],
+  "unatantum": [],
+  "archivio": [
     {
       "id": "mqqdgkvjvxem2zpfc9o",
       "type": "tv",
@@ -29,27 +102,10 @@
       "poster": "https://image.tmdb.org/t/p/w342/q2GSoUVCuyRXLpWNJMfmxY1Sw3v.jpg",
       "notes": "",
       "rating": 0,
-      "dateEnd": "",
+      "dateEnd": "2026-06-23",
       "tmdbId": 102904,
       "backdropPath": "/wt60Q4doM2vrubiCsutwaeWncLL.jpg",
       "addedAt": "2026-06-23T08:17:59.983Z"
-    },
-    {
-      "id": "mqqdfzvchduw3gi19eo",
-      "type": "tv",
-      "title": "Poker Face",
-      "year": "2023",
-      "seasons": "2",
-      "platform": "",
-      "cadenza": "",
-      "overview": "Charlie è una donna con un dono straordinario: riconoscere quando qualcuno mente. A bordo della sua Plymouth Barracuda, attraversa il paese e, a ogni tappa, si trova coinvolta in strani crimini che non può fare a meno di risolvere.",
-      "poster": "https://image.tmdb.org/t/p/w342/nZnHwYpK27fC9AIK6DKVomrUAbk.jpg",
-      "notes": "",
-      "rating": 0,
-      "dateEnd": "",
-      "tmdbId": 120998,
-      "backdropPath": "/ccOzCmrglAjRGtqv5ClTaBEsWt8.jpg",
-      "addedAt": "2026-06-23T08:17:32.760Z"
     },
     {
       "id": "mqqdfqu2rd9cjvj7hdj",
@@ -63,30 +119,10 @@
       "poster": "https://image.tmdb.org/t/p/w342/8esiSJxwNY6Q5gNSMWPfMSqarGv.jpg",
       "notes": "",
       "rating": 0,
-      "dateEnd": "",
+      "dateEnd": "2026-06-23",
       "tmdbId": 63351,
       "backdropPath": "/y9ekzkPFmWSqUU3Kj0wHmYUM8qu.jpg",
       "addedAt": "2026-06-23T08:17:21.050Z"
-    },
-    {
-      "id": "mqqc6w0ld0st0fjhyxq",
-      "type": "tv",
-      "title": "Dutton Ranch",
-      "year": "2026",
-      "seasons": "1",
-      "platform": "",
-      "cadenza": "",
-      "overview": "Rip e Beth Dutton scommettono tutto su una nuova vita nel Texas meridionale, ma la promessa di costruire un futuro insieme lontano dai fantasmi di Yellowstone si scontra con una nuova brutale realtà e un ranch rivale privo di scrupoli.",
-      "poster": "https://image.tmdb.org/t/p/w342/oYaRozHp2xRYzXUA7Eltvuw5um4.jpg",
-      "notes": "",
-      "rating": 0,
-      "dateEnd": "",
-      "tmdbId": 299167,
-      "backdropPath": "/wh5agdl3b7fqC7mSjsCkHx4fMAs.jpg",
-      "addedAt": "2026-06-23T07:42:28.246Z"
     }
-  ],
-  "iniziare": [],
-  "unatantum": [],
-  "archivio": []
+  ]
 }
