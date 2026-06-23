@@ -216,6 +216,7 @@ main{padding:28px 32px;max-width:1500px;margin:0 auto}
       <input type="file" accept=".json" style="display:none" onchange="importData(event)">
     </label>
     <button class="btn-load" onclick="caricaDaGitHub()" style="cursor:pointer">☁️ Carica da GitHub</button>
+    <button class="btn-g btn-sm" onclick="backupLocale()" style="border-color:var(--border2)">💾 Backup</button>
     <button class="btn-save" onclick="pubblicaSuGitHub()">🚀 Pubblica</button>
   </div>
 </div>
@@ -797,6 +798,14 @@ function importData(e){
 function openGuida(){document.getElementById('guidaOv').classList.add('open');}
 function closeGuida(e){if(e.target===document.getElementById('guidaOv'))document.getElementById('guidaOv').classList.remove('open');}
 function closeGuidaBtn(){document.getElementById('guidaOv').classList.remove('open');}
+
+function backupLocale(){
+  const blob=new Blob([JSON.stringify(db,null,2)],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='mf_tracker_backup_'+new Date().toISOString().slice(0,10)+'.json';
+  a.click();
+}
 
 let pendingAction=null;
 
