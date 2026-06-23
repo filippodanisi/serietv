@@ -1,13 +1,47 @@
 {
   "visione": [
     {
-      "id": "mqqc6w0ld0st0fjhyxq",
+      "id": "mqqcukdgaiaxqgt4okd",
+      "type": "tv",
+      "title": "Poker Face",
+      "year": "2023",
+      "seasons": "2",
+      "platform": "",
+      "cadenza": "",
+      "overview": "Charlie è una donna con un dono straordinario: riconoscere quando qualcuno mente. A bordo della sua Plymouth Barracuda, attraversa il paese e, a ogni tappa, si trova coinvolta in strani crimini che non può fare a meno di risolvere.",
+      "poster": "https://image.tmdb.org/t/p/w342/nZnHwYpK27fC9AIK6DKVomrUAbk.jpg",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": 120998,
+      "backdropPath": "/ccOzCmrglAjRGtqv5ClTaBEsWt8.jpg",
+      "addedAt": "2026-06-23T08:00:52.900Z"
+    },
+    {
+      "id": "mqqbbd321z1scyx67mf",
+      "type": "tv",
+      "title": "Il colore delle magnolie",
+      "year": "2020",
+      "seasons": "5",
+      "platform": "",
+      "cadenza": "",
+      "overview": "Nella piccola città di Serenity, le grandi amiche Maddie, Helen e Dana Sue si sostengono a vicenda destreggiandosi tra relazioni sentimentali, famiglia e carriera.",
+      "poster": "https://image.tmdb.org/t/p/w342/q2GSoUVCuyRXLpWNJMfmxY1Sw3v.jpg",
+      "notes": "",
+      "rating": 0,
+      "dateEnd": "",
+      "tmdbId": 102904,
+      "backdropPath": "/wt60Q4doM2vrubiCsutwaeWncLL.jpg",
+      "addedAt": "2026-06-23T07:17:57.374Z"
+    },
+    {
+      "id": "mqqakk1lwf65wijiqff",
       "type": "tv",
       "title": "Dutton Ranch",
       "year": "2026",
       "seasons": "1",
       "platform": "",
-      "cadenza": "",
+      "cadenza": "9 episodi fino al 3 luglio",
       "overview": "Rip e Beth Dutton scommettono tutto su una nuova vita nel Texas meridionale, ma la promessa di costruire un futuro insieme lontano dai fantasmi di Yellowstone si scontra con una nuova brutale realtà e un ranch rivale privo di scrupoli.",
       "poster": "https://image.tmdb.org/t/p/w342/oYaRozHp2xRYzXUA7Eltvuw5um4.jpg",
       "notes": "",
@@ -15,7 +49,7 @@
       "dateEnd": "",
       "tmdbId": 299167,
       "backdropPath": "/wh5agdl3b7fqC7mSjsCkHx4fMAs.jpg",
-      "addedAt": "2026-06-23T07:42:28.246Z"
+      "addedAt": "2026-06-23T06:57:06.681Z"
     }
   ],
   "iniziare": [],
